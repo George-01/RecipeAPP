@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3e3b310429.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Databases</title>
+</head>
+<body>
+   <div class="container my-5">
+       <h2>Recipes</h2>
+       <ul>
+           <!-- <li>Mushroom pie</li>
+           <li>Veg curry</li> -->
+       </ul>
+       <form>
+           <label for="recipe">Add a new recipe:</label>
+           <div class="input-group">
+               <input type="text" class="form-control" id="recipe" required>
+               <div class="input-group-append">
+                   <input type="submit" value="add" class="btn btn-outline-secondary">
+               </div>
+           </div>
+       </form>
+       <button class="">unsubscribe from changes</button>
+   </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDuua0BZ_-EIgLToNSm3bMTmBECA8r5y7k",
+        authDomain: "modern-javascript-app.firebaseapp.com",
+        projectId: "modern-javascript-app",
+        storageBucket: "modern-javascript-app.appspot.com",
+        messagingSenderId: "1087540602532",
+        appId: "1:1087540602532:web:cc8ea29aaafc350b01e831"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    </script>
+    <script src='sandbox.js'></script>
+</body>
+</html>
