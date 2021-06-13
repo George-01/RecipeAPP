@@ -78,5 +78,5 @@ list.addEventListener('click', e => {
 // unsub from database changes
 button.addEventListener('click', () => {
     unsub();
-    console.log('unsubscribe from collection changes');
+    console.log('unsubscribed from collection changes');
 });
